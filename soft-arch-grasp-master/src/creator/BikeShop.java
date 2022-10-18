@@ -7,7 +7,7 @@ public class BikeShop {
          * Create a Bike object.
          */
 
-        Bike bike = new Bike();
+        Bike bike = new Bike(new Frame(45), new Wheel(13), new Wheel(14));
 
     }
 }
